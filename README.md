@@ -4,12 +4,11 @@
 
   <!-- Animated Header Banner -->
   <picture>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:B06AB3,100:4568DC&height=220&section=header&text=Hi%20👋,%20I'm%20cyberneticx&fontSize=52&fontAlignY=36&desc=Frontend%20Developer%20✦%20Crafting%20Digital%20Experiences&descAlignY=58&animation=twinkling&fontColor=ffffff" alt="ShadowByte-dev-max
- Header" width="100%" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:B06AB3,100:4568DC&height=220&section=header&text=Hi%20👋,%20I'm%20ShadowByte-dev-max&fontSize=52&fontAlignY=36&desc=Frontend%20Developer&fontColor=FFFFFF&title=cyberneticx&titleColor=FFFFFF&titleFontSize=24&titleFontAlignY=50" width="100%" />
   </picture>
 
   <!-- Dynamic Typing Headline -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=2000&color=B06AB3&center=true&vCenter=true&width=550&lines=Designing+clean+%26+modern+interfaces...;Building+responsive+web+applications...;Turning+complex+ideas+into+reality...;Always+learning,+always+building..." alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=2000&color=B06AB3&center=true&vCenter=true&width=550&lines=Designing+clean+%26+modern+interfaces...;Building+responsive+user+experiences...;Turning+ideas+into+pixel-perfect+products..." alt="Typing headline" />
 </div>
 
 <br/>
@@ -79,9 +78,9 @@
   </h2>
 
   <!-- Stats & Streak Cards (Reliable and fully color-matched) -->
-  <a href="https://github.com/cyberneticx">
-    <img src="https://github-readme-stats.vercel.app/api?username=cyberneticx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=B06AB3&icon_color=4568DC" height="150" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=cyberneticx&theme=tokyonight&hide_border=true&background=0D1117&ring=B06AB3&fire=4568DC&currStreakLabel=B06AB3" height="150" alt="GitHub Streak" />
+  <a href="https://github.com/ShadowByte-dev-max">
+    <img src="https://github-readme-stats.vercel.app/api?username=ShadowByte-dev-max&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=B06AB3&icon_color=4568DC" height="150" alt="GitHub stats for ShadowByte-dev-max" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShadowByte-dev-max&theme=tokyonight&hide_border=true&background=0D1117&ring=B06AB3&fire=4568DC&currStreakLabel=B06AB3" height="150" alt="GitHub streak stats for ShadowByte-dev-max" />
   </a>
 </div>
 
@@ -94,5 +93,5 @@
 
 <!-- Footer (Fixed URL-encoding for emojis and special characters) -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=2000&color=4568DC&center=true&vCenter=true&width=450&lines=Made+with+coffee+and+code;Let%27s+connect+and+build+together!" alt="Footer Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=2000&color=4568DC&center=true&vCenter=true&width=450&lines=Made+with+coffee+and+code;Let's+connect+and+build+something+amazing" alt="Footer message" />
 </div>
