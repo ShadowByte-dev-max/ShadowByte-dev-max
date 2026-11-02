@@ -19,58 +19,97 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:B06AB3,100:4568DC&height=3&width=80%" alt="Divider" style="pointer-events: none;" />
 </p>
 
-<!-- Digital Arsenal & Tech Stack Carousel Section -->
+<!-- Digital Arsenal & Tech Stack Carousel with FX -->
 <div align="center" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;">
   <h2>
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="34" height="34" alt="Laptop" style="pointer-events: none;" /> 
     Digital Arsenal & Tech Stack
   </h2>
 
-  <!-- Frontend & Languages Carousel Track -->
-  <p style="pointer-events: none; margin-bottom: 10px;"><b>Frontend & Languages</b></p>
-  <div style="overflow: hidden; width: 100%; white-space: nowrap; pointer-events: none;">
-    <div style="display: inline-block; animation: marquee 25s linear infinite; pointer-events: none;">
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Tech Stack" style="pointer-events: none;" />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Tech Stack Repeat" style="pointer-events: none;" />
-    </div>
-  </div>
-
-  <br/>
-
-  <!-- Backend & Database Carousel Track -->
-  <p style="pointer-events: none; margin-bottom: 10px;"><b>Backend & Database</b></p>
-  <div style="overflow: hidden; width: 100%; white-space: nowrap; pointer-events: none;">
-    <div style="display: inline-block; animation: marquee-reverse 20s linear infinite; pointer-events: none;">
-      <img src="https://skillicons.dev/icons?i=nodejs,mongo,mysql,java" alt="Backend Tech Stack" style="pointer-events: none;" />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=nodejs,mongo,mysql,java" alt="Backend Tech Stack Repeat" style="pointer-events: none;" />
-    </div>
-  </div>
-
-  <br/>
-
-  <!-- Workflow & Tools Carousel Track -->
-  <p style="pointer-events: none; margin-bottom: 10px;"><b>Workflow & Tools</b></p>
-  <div style="overflow: hidden; width: 100%; white-space: nowrap; pointer-events: none;">
-    <div style="display: inline-block; animation: marquee 22s linear infinite; pointer-events: none;">
-      <img src="https://skillicons.dev/icons?i=linux,figma,vscode,git,github" alt="Tools Tech Stack" style="pointer-events: none;" />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="https://skillicons.dev/icons?i=linux,figma,vscode,git,github" alt="Tools Tech Stack Repeat" style="pointer-events: none;" />
-    </div>
-  </div>
-
-  <!-- Inline CSS Keyframe Animations for Carousels -->
+  <!-- Carousel Container FX Styles -->
   <style>
-    @keyframes marquee {
+    .tech-carousel-wrapper {
+      overflow: hidden;
+      width: 100%;
+      white-space: nowrap;
+      position: relative;
+      padding: 12px 0;
+      background: rgba(13, 17, 23, 0.4);
+      border-radius: 12px;
+      border: 1px solid rgba(176, 106, 179, 0.2);
+      box-shadow: 0 0 15px rgba(69, 104, 220, 0.15);
+      backdrop-filter: blur(5px);
+      margin-bottom: 15px;
+    }
+    
+    .tech-track-left {
+      display: inline-block;
+      animation: marquee-left 28s linear infinite;
+    }
+
+    .tech-track-right {
+      display: inline-block;
+      animation: marquee-right 24s linear infinite;
+    }
+
+    .tech-carousel-wrapper:hover .tech-track-left,
+    .tech-carousel-wrapper:hover .tech-track-right {
+      animation-play-state: paused; /* Pause effect on hover */
+    }
+
+    @keyframes marquee-left {
       0% { transform: translateX(0%); }
       100% { transform: translateX(-50%); }
     }
-    @keyframes marquee-reverse {
+
+    @keyframes marquee-right {
       0% { transform: translateX(-50%); }
       100% { transform: translateX(0%); }
     }
+
+    .fx-tech-item {
+      display: inline-block;
+      margin: 0 15px;
+      padding: 8px 14px;
+      background: rgba(26, 31, 44, 0.8);
+      border: 1px solid rgba(176, 106, 179, 0.3);
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .fx-tech-item:hover {
+      transform: translateY(-4px) scale(1.05);
+      border-color: #B06AB3;
+      box-shadow: 0 5px 20px rgba(176, 106, 179, 0.4);
+    }
   </style>
+
+  <!-- Frontend & Languages Carousel -->
+  <p style="pointer-events: none; margin-bottom: 6px;"><b>Frontend & Languages</b></p>
+  <div class="tech-carousel-wrapper">
+    <div class="tech-track-left">
+      <div class="fx-tech-item"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Stack" style="pointer-events: none;" /></div>
+      <div class="fx-tech-item"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Stack Duplicate" style="pointer-events: none;" /></div>
+    </div>
+  </div>
+
+  <!-- Backend & Database Carousel -->
+  <p style="pointer-events: none; margin-bottom: 6px;"><b>Backend & Database</b></p>
+  <div class="tech-carousel-wrapper">
+    <div class="tech-track-right">
+      <div class="fx-tech-item"><img src="https://skillicons.dev/icons?i=nodejs,mongo,mysql,java" alt="Backend Stack" style="pointer-events: none;" /></div>
+      <div class="fx-tech-item"><img src="https://skillicons.dev/icons?i=nodejs,mongo,mysql,java" alt="Backend Stack Duplicate" style="pointer-events: none;" /></div>
+    </div>
+  </div>
+
+  <!-- Workflow & Tools Carousel -->
+  <p style="pointer-events: none; margin-bottom: 6px;"><b>Workflow & Tools</b></p>
+  <div class="tech-carousel-wrapper">
+    <div class="tech-track-left">
+      <div class="fx-tech-item"><img src="https://skillicons.dev/icons?i=linux,figma,vscode,git,github" alt="Tools Stack" style="pointer-events: none;" /></div>
+      <div class="fx-tech-item"><img src="https://skillicons.dev/icons?i=linux,figma,vscode,git,github" alt="Tools Stack Duplicate" style="pointer-events: none;" /></div>
+    </div>
+  </div>
 </div>
 
 <br/>
