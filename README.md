@@ -36,6 +36,7 @@
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=ts" width="45" alt="TypeScript" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>TypeScript</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=react" width="45" alt="React" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>React</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=nextjs" width="45" alt="Next.js" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Next.js</b></sub></td>
+      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=expo" width="45" alt="Expo" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Expo</b></sub></td>
       <td align="center" width="80"><img src="https://skillicons.dev/icons?i=tailwind" width="45" alt="Tailwind CSS" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Tailwind</b></sub></td>
     </tr>
   </table>
