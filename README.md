@@ -19,49 +19,58 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:B06AB3,100:4568DC&height=3&width=80%" alt="Divider" style="pointer-events: none;" />
 </p>
 
-<!-- Tech Arsenal Section with Tool Names -->
+<!-- Digital Arsenal & Tech Stack Carousel Section -->
 <div align="center" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;">
   <h2>
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="34" height="34" alt="Laptop" style="pointer-events: none;" /> 
     Digital Arsenal & Tech Stack
   </h2>
 
-  <!-- Frontend & Languages -->
-  <p style="pointer-events: none;"><b>Frontend & Languages</b></p>
-  <table style="pointer-events: none;">
-    <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=html" width="45" alt="HTML5" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>HTML5</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=css" width="45" alt="CSS3" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>CSS3</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=js" width="45" alt="JavaScript" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>JavaScript</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=ts" width="45" alt="TypeScript" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>TypeScript</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=react" width="45" alt="React" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>React</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=nextjs" width="45" alt="Next.js" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Next.js</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=tailwind" width="45" alt="Tailwind CSS" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Tailwind</b></sub></td>
-    </tr>
-  </table>
+  <!-- Frontend & Languages Carousel Track -->
+  <p style="pointer-events: none; margin-bottom: 10px;"><b>Frontend & Languages</b></p>
+  <div style="overflow: hidden; width: 100%; white-space: nowrap; pointer-events: none;">
+    <div style="display: inline-block; animation: marquee 25s linear infinite; pointer-events: none;">
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Tech Stack" style="pointer-events: none;" />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Tech Stack Repeat" style="pointer-events: none;" />
+    </div>
+  </div>
 
-  <!-- Backend & Database -->
-  <p style="pointer-events: none;"><b>Backend & Database</b></p>
-  <table style="pointer-events: none;">
-    <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=nodejs" width="45" alt="Node.js" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Node.js</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=mongo" width="45" alt="MongoDB" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>MongoDB</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=mysql" width="45" alt="MySQL" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>MySQL</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=java" width="45" alt="Java" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Java</b></sub></td>
-    </tr>
-  </table>
+  <br/>
 
-  <!-- Workflow & Tools -->
-  <p style="pointer-events: none;"><b>Workflow & Tools</b></p>
-  <table style="pointer-events: none;">
-    <tr>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=linux" width="45" alt="Linux" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Linux</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=figma" width="45" alt="Figma" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Figma</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=vscode" width="45" alt="VS Code" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>VS Code</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=git" width="45" alt="Git" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>Git</b></sub></td>
-      <td align="center" width="80"><img src="https://skillicons.dev/icons?i=github" width="45" alt="GitHub" style="pointer-events: none;"/><br/><sub style="pointer-events: none;"><b>GitHub</b></sub></td>
-    </tr>
-  </table>
+  <!-- Backend & Database Carousel Track -->
+  <p style="pointer-events: none; margin-bottom: 10px;"><b>Backend & Database</b></p>
+  <div style="overflow: hidden; width: 100%; white-space: nowrap; pointer-events: none;">
+    <div style="display: inline-block; animation: marquee-reverse 20s linear infinite; pointer-events: none;">
+      <img src="https://skillicons.dev/icons?i=nodejs,mongo,mysql,java" alt="Backend Tech Stack" style="pointer-events: none;" />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=nodejs,mongo,mysql,java" alt="Backend Tech Stack Repeat" style="pointer-events: none;" />
+    </div>
+  </div>
+
+  <br/>
+
+  <!-- Workflow & Tools Carousel Track -->
+  <p style="pointer-events: none; margin-bottom: 10px;"><b>Workflow & Tools</b></p>
+  <div style="overflow: hidden; width: 100%; white-space: nowrap; pointer-events: none;">
+    <div style="display: inline-block; animation: marquee 22s linear infinite; pointer-events: none;">
+      <img src="https://skillicons.dev/icons?i=linux,figma,vscode,git,github" alt="Tools Tech Stack" style="pointer-events: none;" />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://skillicons.dev/icons?i=linux,figma,vscode,git,github" alt="Tools Tech Stack Repeat" style="pointer-events: none;" />
+    </div>
+  </div>
+
+  <!-- Inline CSS Keyframe Animations for Carousels -->
+  <style>
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    @keyframes marquee-reverse {
+      0% { transform: translateX(-50%); }
+      100% { transform: translateX(0%); }
+    }
+  </style>
 </div>
 
 <br/>
@@ -78,8 +87,8 @@
     Achievements & Metrics
   </h2>
 
-  <!-- Stats & Streak Cards (Non-clickable/Non-selectable) -->
-  <div>
+  <!-- Stats & Streak Cards -->
+  <div style="pointer-events: none;">
     <img src="https://github-readme-stats.vercel.app/api?username=ShadowByte-dev-max&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=B06AB3&icon_color=4568DC" height="150" alt="GitHub stats for ShadowByte-dev-max" style="pointer-events: none;" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShadowByte-dev-max&theme=tokyonight&hide_border=true&background=0D1117&ring=B06AB3&fire=4568DC&currStreakLabel=B06AB3" height="150" alt="GitHub streak stats for ShadowByte-dev-max" style="pointer-events: none;" />
   </div>
